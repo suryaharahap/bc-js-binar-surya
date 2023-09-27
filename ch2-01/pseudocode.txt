@@ -1,0 +1,8 @@
+// Meminta input dari pengguna
+let r = parseFloat(prompt("Masukkan nilai jari-jari lingkaran:"));
+
+// Menghitung keliling lingkaran
+let keliling = 2 * Math.PI * r;
+
+// Menampilkan hasil
+console.log("Keliling lingkaran adalah " + keliling);
